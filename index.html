@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto Web</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dom.html">DOM</a>
+    <a href="calculadora.html">Calculadora</a>
+    <a href="imc.html">IMC</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+
+        <h1>🚀 Projeto Web</h1>
+        <p>Escolha uma funcionalidade abaixo:</p>
+
+        <div style="margin-top: 20px; display: flex; flex-direction: column; gap: 10px;">
+
+            <a href="dom.html">
+                <button>📄 Manipulação DOM</button>
+            </a>
+
+            <a href="calculadora.html">
+                <button>🧮 Calculadora</button>
+            </a>
+
+            <a href="imc.html">
+                <button>⚖️ Calcular IMC</button>
+            </a>
+
+        </div>
+
+        <hr style="margin: 20px 0;">
+
+        <p>Extras:</p>
+
+        <button onclick="executarVariaveis()">🔎 Testar Variáveis</button>
+
+    </div>
+</div>
+
+<script src="js/variaveis.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dom.html">DOM</a>
+    <a href="calculadora.html">Calculadora</a>
+    <a href="imc.html">IMC</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h1>🧮 Calculadora</h1>
+
+        <input type="number" id="n1" placeholder="Número 1">
+
+        <select id="operacao">
+            <option value="+">Soma (+)</option>
+            <option value="-">Subtração (-)</option>
+            <option value="*">Multiplicação (*)</option>
+            <option value="/">Divisão (/)</option>
+        </select>
+
+        <input type="number" id="n2" placeholder="Número 2">
+
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+</div>
+
+<script src="js/calculadora.js"></script>
+
+</body>
+</html>
